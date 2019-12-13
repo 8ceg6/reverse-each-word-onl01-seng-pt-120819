@@ -16,7 +16,7 @@
 # end 
 
 def reverse_each_word(phrase)
-  phrase = phrase.split(" ")
+  phrase = phrase.split
   reversed=[]
   phrase.collect do |sentence2|
     reversed << sentence2.reverse 
