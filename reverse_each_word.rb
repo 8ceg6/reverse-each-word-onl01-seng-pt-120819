@@ -8,5 +8,8 @@ def reverse_each_word(string)
 end  
 
 def reverse_each_word(string)
+    string.collect do |phrase|
+      phrase.reversed(" ")
+    end 
     
 end 
