@@ -7,8 +7,8 @@ def reverse_each_word(string)
     reversed.join(" ")
 end  
 
-def reverse_each_word2(string)
-    string.collect do |phrase|
+def reverse_each_word2(string2)
+    string2.collect do |phrase|
       phrase.reversed(" ")
     end 
     
